@@ -1,0 +1,109 @@
+@import '../../scss/import';
+
+.container {
+
+    margin: rem(40 0 16);
+
+    @include breakpoint(medium) {
+
+        margin: rem(88 0);
+
+    }
+
+    .back {
+
+        @include transition();
+
+        background-color: $primary;
+        color: $white;
+        cursor: pointer;
+        padding: rem(16 24);
+        position: absolute;
+        right: 0;
+        top: 0;
+
+        &:hover {
+
+            background-color: $secondary;
+
+        }
+
+    }
+
+    h1 {
+
+        margin-bottom: rem(24);
+
+    }
+
+    .info {
+
+        margin-bottom: rem(40);
+        position: relative;
+
+        @include breakpoint(medium) {
+
+            margin-bottom: rem(48);
+
+        }
+
+        h3 {
+
+            margin-bottom: rem(8);
+
+        }
+
+    }
+
+    img {
+
+        background-color: $light-grey;
+        display: block;
+        margin-bottom: rem(48);
+        min-height: rem(200);
+        position: relative;
+        width: 100%;
+
+        @include breakpoint(medium) {
+
+            min-height: rem(300);
+
+        }
+
+    }
+
+    .tags {
+
+        p {
+
+            @include transition();
+
+            background-color: $light-grey;
+            color: $secondary;
+            display: inline-block;
+            font-weight: normal;
+            margin-right: rem(16);
+            padding: rem(16 24);
+
+            &:hover {
+
+                background-color: $primary;
+                color: $white;
+
+            }
+
+        }
+
+        h3 {
+
+            &.bold {
+
+                margin-bottom: rem(8);
+
+            }
+
+        }
+
+    }
+
+}

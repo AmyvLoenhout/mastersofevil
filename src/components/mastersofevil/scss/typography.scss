@@ -1,0 +1,66 @@
+//  =========================================
+//  Custom Web Fonts
+//  =========================================
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700');
+
+h1,
+h2,
+h3,
+h4,
+p {
+
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+h1,
+h2 {
+
+    font-weight: bold;
+
+}
+
+h1 {
+
+    font-size: rem(28);
+
+}
+
+h2 {
+
+    font-size: rem(24);
+    margin-bottom: rem(24);
+
+}
+
+h3 {
+
+    font-size: rem(20);
+    margin-bottom: rem(24);
+
+    @include breakpoint(medium) {
+
+        margin: rem(8 0 24);
+
+    }
+
+    &.bold {
+
+        font-weight: bold;
+
+    }
+
+}
+
+a {
+
+    color: $primary;
+
+    &:hover {
+
+        color: $secondary;
+
+    }
+
+}

@@ -1,0 +1,45 @@
+@import '../../../../node_modules/foundation-sites/scss/util/util';
+
+//  Distribution folder
+$dist: '..';
+
+$white: #FFFFFF;
+$black: #3C3C3C;
+
+$primary: #DD473E;
+$secondary: #4C4C4C;
+$light-grey: #F2F2F2;
+$dark-grey: #E2DFDF;
+
+$global-width: rem(1200);
+
+//  Breakpoints
+$breakpoints: (
+    small: 0,
+    medium: rem(768),
+    large: rem(1024),
+    xlarge: rem(1200),
+    xxlarge: rem(1440),
+);
+
+$breakpoint-classes: (small medium large xlarge xxlarge);
+
+//  The Grid
+$grid-row-width: $global-width;
+$grid-column-count: 12;
+$grid-column-gutter: (
+    small: rem(32),
+    medium: rem(16),
+);
+
+.spacing {
+
+    margin-bottom: rem(40);
+
+}
+
+.container {
+
+    width: 100%;
+
+}

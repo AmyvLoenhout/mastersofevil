@@ -1,0 +1,185 @@
+{
+    "websites": [
+        {
+            "id": 19,
+            "name": "Humanitas",
+            "servername": "VPS0001",
+            "logo": "http://...png",
+            "urls": [
+                {
+                    "test": "http://test.humanitas-dmh.kiwicloud.nl",
+                    "accept": "http://test.humanitas-dmh.kiwicloud.nl",
+                    "production": "http://test.humanitas-dmh.kiwicloud.nl"
+                }
+            ],
+            "tags": [
+                {
+                    "frontend": [
+                        "swiper",
+                        "slider",
+                        "ES6",
+                        "jQuery"
+                    ],
+                    "backend": [
+                        "custom api google"
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+//const projects = [
+//
+//    {
+//        id: "1",
+//        name: "4PS",
+//        logo: "img/logos/4ps.svg",
+//        url: "index.html",
+//        tags: [
+//            "slider",
+//            "form",
+//            "sticky header",
+//        ]
+//    },
+//    {
+//        id: "2",
+//        name: "Altec",
+//        logo: "img/logos/altec.svg",
+//        url: "index.html",
+//        tags: [
+//            "sticky header",
+//        ]
+//    },
+//    {
+//        id: "3",
+//        name: "AVEX",
+//        logo: "img/logos/avex.svg",
+//        url: "index.html",
+//        tags: [
+//            "slider",
+//            "form",
+//        ]
+//    },
+//    {
+//        id: "4",
+//        name: "Bavaria",
+//        logo: "img/logos/bavaria.svg",
+//        url: "index.html",
+//        tags: [
+//            "form",
+//        ]
+//    },
+//    {
+//        id: "5",
+//        name: "FBM",
+//        logo: "img/logos/fbm.svg",
+//        url: "index.html",
+//        tags: [
+//            "slider",
+//        ]
+//    },
+//    {
+//        id: "6",
+//        name: "Feyenoord",
+//        logo: "img/logos/feyenoord.svg",
+//        url: "index.html",
+//        tags: [
+//            "sticky header",
+//        ]
+//    },
+//    {
+//        id: "7",
+//        name: "Gemeente Utrecht",
+//        logo: "img/logos/gemutrecht.svg",
+//        url: "index.html",
+//        tags: [
+//            "sticky header",
+//        ]
+//    },
+//    {
+//        id: "8",
+//        name: "Interior Works",
+//        logo: "img/logos/interiorworks.svg",
+//        url: "index.html",
+//        tags: [
+//            "form",
+//        ]
+//    },
+//    {
+//        id: "9",
+//        name: "JP van de Bent",
+//        logo: "img/logos/jpvdbent.svg",
+//        url: "index.html",
+//        tags: [
+//            "slider",
+//        ]
+//    },
+//    {
+//        id: "10",
+//        name: "Nooteboom",
+//        logo: "img/logos/nooteboom.svg",
+//        url: "index.html",
+//        tags: [
+//            "sticky header",
+//        ]
+//    },
+//    {
+//        id: "12",
+//        name: "Radar",
+//        logo: "img/logos/radar.svg",
+//        url: "index.html",
+//        tags: [
+//            "sticky header",
+//        ]
+//    },
+//    {
+//        id: "13",
+//        name: "RET",
+//        logo: "img/logos/ret.svg",
+//        url: "index.html",
+//        tags: [
+//            "form",
+//        ]
+//    },
+//    {
+//        id: "13",
+//        name: "Skins",
+//        logo: "img/logos/skins.svg",
+//        url: "index.html",
+//        tags: [
+//            "slider",
+//            "gallery",
+//        ]
+//    },
+//    {
+//        id: "14",
+//        name: "TU Delft",
+//        logo: "img/logos/tudelft.svg",
+//        url: "index.html",
+//        tags: [
+//            "slider",
+//        ]
+//    },
+//    {
+//        id: "15",
+//        name: "Wesco",
+//        logo: "img/logos/wesco.svg",
+//        url: "index.html",
+//        tags: [
+//            "form",
+//        ]
+//    },
+//    {
+//        id: "16",
+//        name: "Zorgkantoor",
+//        logo: "img/logos/zorgkantoor.svg",
+//        url: "index.html",
+//        tags: [
+//            "gallery",
+//        ]
+//    },
+//
+//];
+//
+//export default projects;

@@ -1,0 +1,71 @@
+@import '../../scss/import';
+
+header {
+
+    @include box-shadow();
+
+    background-color: $secondary;
+    display: flex;
+    justify-content: center;
+    padding: rem(40);
+
+}
+
+.image {
+
+    position: relative;
+
+    &:before,
+    &:after {
+
+        animation: eyes 3s infinite;
+        background-color: $primary;
+        border-radius: 50%;
+        content: '';
+        display: block;
+        height: rem(10);
+        position: absolute;
+        top: rem(13);
+        width: rem(8);
+
+    }
+
+    &:before {
+
+        left: rem(55);
+
+    }
+
+    &:after {
+
+        right: rem(55);
+
+    }
+
+    @keyframes eyes {
+
+        0% {
+
+            opacity: 1;
+
+        }
+        50% {
+
+            opacity: 0;
+
+        }
+        100% {
+
+            opacity: 1;
+
+        }
+
+    }
+
+    img {
+
+        height: rem(130);
+
+    }
+
+}

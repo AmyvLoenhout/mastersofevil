@@ -1,0 +1,18 @@
+@mixin transition($context: 'all 200ms linear') {
+
+    transition: #{$context};
+
+}
+
+@mixin box-shadow() {
+
+    box-shadow: 0 2px 10px rgba($black, 0.2);
+
+}
+
+//  Wrapper function to write rem even faster
+@function rem($px) {
+
+    @return rem-calc($px);
+
+}

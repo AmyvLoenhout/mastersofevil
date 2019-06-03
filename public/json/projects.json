@@ -1,0 +1,359 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "server": 2871,
+            "name": "4PS",
+            "logo": "img/logos/4ps.svg",
+            "urls": [
+                "https://4ps.test",
+                "https://4ps.co.uk",
+                "https://test.4ps.nl.kiwicloud.nl",
+                "https://accept.4ps.nl.kiwicloud.nl"
+            ],
+            "tags": {
+                "frontend": [
+                    "slider",
+                    "form",
+                    "sticky header",
+                    "video loop"
+                ],
+                "backend": [
+                    "custom api google"
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "server": 2872,
+            "name": "AVEX",
+            "logo": "img/logos/avex.svg",
+            "urls": [
+                "https://avex.test",
+                "https://avex.nl",
+                "https://avex.be",
+                "https://avex-int.com",
+                "https://test.avex.nl.kiwicloud.nl",
+                "https://accept.avex.nl.kiwicloud.nl"
+            ],
+            "tags": {
+                "frontend": [
+                    "ES6",
+                    "jQuery",
+                    "sticky header",
+                    "video",
+                    "play button"
+                ],
+                "backend": [
+                    "custom"
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "server": 2873,
+            "name": "Gemeente Demo",
+            "logo": "img/logos/gemeente.svg",
+            "urls": [
+                "https://gemeente-demo.test",
+                "https://gemeente-demo.redkiwi.nl",
+                "https://test.gemeente-demo.nl.kiwicloud.nl",
+                "https://accept.gemeente-demo.nl.kiwicloud.nl"
+            ],
+            "tags": {
+                "frontend": [
+                    "slider"
+                ],
+                "backend": [
+                    "custom"
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "server": 2874,
+            "name": "Humanitas",
+            "logo": "img/logos/humanitas.svg",
+            "urls": [
+                "https://humanitas-dmh.test",
+                "https://humanitas-dmh.nl",
+                "https://test.humanitas-dmh.nl.kiwicloud.nl",
+                "https://accept.humanitas-dmh.nl.kiwicloud.nl"
+            ],
+            "tags": {
+                "frontend": [
+                    "slider"
+                ],
+                "backend": [
+                    "custom"
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "server": 2875,
+            "name": "MediaMarkt",
+            "logo": "img/logos/mediamarkt.svg",
+            "urls": [
+                "https://mediamarkt-brand-story.test",
+                "https://brand.mediamarkt.nl",
+                "https://test.brand.mediamarkt.nl.kiwicloud.nl",
+                "https://accept.brand.mediamarkt.nl.kiwicloud.nl"
+            ],
+            "tags": {
+                "frontend": [
+                    "slider",
+                    "form",
+                    "ES6"
+                ],
+                "backend": [
+                    "custom"
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "server": 2876,
+            "name": "Nooteboom",
+            "logo": "img/logos/nooteboom.svg",
+            "urls": [
+                "https://nooteboom.test",
+                "https://nooteboom.com",
+                "https://work.nooteboom.com",
+                "https://test.nooteboom.nl.kiwicloud.nl",
+                "https://accept.nooteboom.nl.kiwicloud.nl"
+            ],
+            "tags": {
+                "frontend": [
+                    "sticky header"
+                ],
+                "backend": [
+                    "custom"
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "server": 2877,
+            "name": "OZHZ",
+            "logo": "img/logos/ozhz.svg",
+            "urls": [
+                "https://ozhz.test",
+                "https://ozhz.nl",
+                "https://test.ozhz.nl.kiwicloud.nl",
+                "https://accept.ozhz.nl.kiwicloud.nl"
+            ],
+            "tags": {
+                "frontend": [
+                    "slider",
+                    "form",
+                    "sticky header"
+                ],
+                "backend": [
+                    "custom"
+                ]
+            }
+        },
+        {
+            "id": 8,
+            "server": 2878,
+            "name": "Protix",
+            "logo": "img/logos/protix.svg",
+            "urls": [
+                "https://protix.test",
+                "https://protix.eu",
+                "https://test.protix.eu.kiwicloud.nl",
+                "https://accept.protix.eu.kiwicloud.nl"
+            ],
+            "tags": {
+                "frontend": [
+                    "slider",
+                    "form",
+                    "sticky header",
+                    "ES6",
+                    "jQuery"
+                ],
+                "backend": [
+                    "custom"
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "server": 2879,
+            "name": "Provalliance",
+            "logo": "img/logos/provalliance.svg",
+            "urls": [
+                "https://provalliance.test",
+                "https://provalliance.nl",
+                "https://test.provalliance.nl.kiwicloud.nl",
+                "https://accept.provalliance.nl.kiwicloud.nl"
+            ],
+            "tags": {
+                "frontend": [
+                    "sticky header"
+                ],
+                "backend": [
+                    "custom"
+                ]
+            }
+        },
+        {
+            "id": 10,
+            "server": 2880,
+            "name": "Radar",
+            "logo": "img/logos/radar.svg",
+            "urls": [
+                "https://radar.test",
+                "https://radarpersoneel.nl",
+                "https://radar-groep.nl",
+                "https://radaradvies.nl",
+                "https://radareurope.nl",
+                "https://radarvertige.nl",
+                "https://test.radarpersoneel.nl.kiwicloud.nl",
+                "https://test.radar-group.nl.kiwicloud.nl",
+                "https://test.radaradvies.nl.kiwicloud.nl",
+                "https://test.radareurope.nl.kiwicloud.nl",
+                "https://test.radarvertige.nl.kiwicloud.nl",
+                "https://accept.radarpersoneel.nl.kiwicloud.nl",
+                "https://accept.radar-group.nl.kiwicloud.nl",
+                "https://accept.radaradvies.nl.kiwicloud.nl",
+                "https://accept.radareurope.nl.kiwicloud.nl",
+                "https://accept.radarvertige.nl.kiwicloud.nl"
+            ],
+            "tags": {
+                "frontend": [
+                    "jQuery",
+                    "ES6",
+                    "sticky header"
+                ],
+                "backend": [
+                    "custom api google"
+                ]
+            }
+        },
+        {
+            "id": 11,
+            "server": 2881,
+            "name": "Rebelgroup",
+            "logo": "img/logos/rebel.svg",
+            "urls": [
+                "https://rebelgroup.test",
+                "https://rebelgroup.com",
+                "https://test.rebelgroup.nl.kiwicloud.nl",
+                "https://accept.rebelgroup.nl.kiwicloud.nl"
+            ],
+            "tags": {
+                "frontend": [
+                    "form"
+                ],
+                "backend": [
+                    "Youtube"
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "server": 2882,
+            "name": "Scelta",
+            "logo": "img/logos/scelta.svg",
+            "urls": [
+                "https://sceltamushrooms.test",
+                "https://sceltamushrooms.com",
+                "https://test.sceltamushrooms.com.kiwicloud.nl",
+                "https://accept.sceltamushrooms.com.kiwicloud.nl"
+            ],
+            "tags": {
+                "frontend": [
+                    "slider"
+                ],
+                "backend": [
+                    "custom api google"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "server": 2883,
+            "name": "Suitical",
+            "logo": "img/logos/suitical.svg",
+            "urls": [
+                "https://suitical-rebuild.test",
+                "https://suitical.nl",
+                "https://test.suitical-rebuild.nl.kiwicloud.nl",
+                "https://accept.suitical-rebuild.nl.kiwicloud.nl"
+            ],
+            "tags": {
+                "frontend": [
+                    "ES6",
+                    "form"
+                ],
+                "backend": [
+                    "custom api google"
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "server": 2884,
+            "name": "TCF",
+            "logo": "img/logos/tcf.svg",
+            "urls": [
+                "https://tcfirm.test",
+                "https://tcfirm.nl",
+                "https://test.tcfirm.nl.kiwicloud.nl",
+                "https://accept.tcfirm.nl.kiwicloud.nl"
+            ],
+            "tags": {
+                "frontend": [
+                    "jQuery"
+                ],
+                "backend": [
+                    "custom api google"
+                ]
+            }
+        },
+        {
+            "id": 15,
+            "server": 2885,
+            "name": "TU Delft",
+            "logo": "img/logos/tudelft.svg",
+            "urls": [
+                "https://tudelft.test",
+                "https://ocw.tudelft.nl",
+                "https://test.tudelft.nl.kiwicloud.nl",
+                "https://accept.tudelft.nl.kiwicloud.nl"
+            ],
+            "tags": {
+                "frontend": [
+                    "sticky header"
+                ],
+                "backend": [
+                    "custom api google"
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "server": 2886,
+            "name": "JP van den Bent",
+            "logo": "img/logos/jpvdbent.svg",
+            "urls": [
+                "https://jpvandenbent.test",
+                "https://jpvandenbent.nl",
+                "https://test.jpvandenbent.nl.kiwicloud.nl",
+                "https://accept.jpvandenbent.nl.kiwicloud.nl"
+            ],
+            "tags": {
+                "frontend": [
+                    "slider",
+                    "form"
+                ],
+                "backend": [
+                    "custom api google"
+                ]
+            }
+        }
+    ]
+}
+

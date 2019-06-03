@@ -1,0 +1,28 @@
+@import '../../scss/import';
+
+.error {
+
+    margin-top: rem(80);
+    text-align: center;
+
+    .back-btn {
+
+        @include transition();
+
+        background-color: $primary;
+        color: $white;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: bold;
+        margin-top: rem(24);
+        padding: rem(16 24);
+
+        &:hover {
+
+            background-color: $secondary;
+
+        }
+
+    }
+
+}

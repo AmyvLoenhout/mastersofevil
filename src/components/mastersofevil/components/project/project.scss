@@ -1,0 +1,73 @@
+@import '../../scss/import';
+
+.project {
+
+    background-color: $light-grey;
+    display: block;
+    margin-bottom: rem(16);
+    min-height: rem(250);
+    padding: rem(32);
+    position: relative;
+
+    &:hover {
+
+        .project-img {
+
+            @include transition();
+
+            top: 30%;
+
+        }
+
+        .more-info {
+
+            @include transition();
+
+            opacity: 1;
+
+        }
+
+    }
+
+    .project-img {
+
+        left: 50%;
+        position: absolute;
+        top: 30%;
+        transform: translate(-50%, -50%);
+
+        @include breakpoint(large) {
+
+            @include transition();
+
+            top: 50%;
+
+        }
+
+    }
+
+    .more-info {
+
+        background-color: $primary;
+        color: $white;
+        display: inline-block;
+        font-weight: bold;
+        opacity: 1;
+        padding: rem(8 16);
+        position: absolute;
+        text-transform: uppercase;
+        bottom: rem(40);
+        left: 50%;
+        transform: translateX(-50%);
+
+        @include breakpoint(large) {
+
+            @include transition();
+
+            opacity: 0;
+
+        }
+
+    }
+
+}
