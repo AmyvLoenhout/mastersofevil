@@ -1,6 +1,6 @@
 ## MastersOfEvil Project
 
-This is a project I worked on during my internship. It provides a useful tool for front-end developers that can be used to find elements of previous projects based on tags. That way they can easily reuse elements they created before, in newer projects.
+This is a project I worked on during my internship. It provides a useful application for front-end developers that can be used to find elements of previous projects based on tags. That way they can easily reuse elements they created before, in newer projects.
 
 ## Available Scripts
 
