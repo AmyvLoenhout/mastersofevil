@@ -22,3 +22,20 @@ input[type=text] {
     }
 
 }
+
+.wrapper {
+
+    position: relative;
+
+}
+
+.search {
+
+    display: block;
+    position: absolute;
+    top: rem(8);
+    right: rem(20);
+    width: rem(20);
+    height: rem(20);
+
+}

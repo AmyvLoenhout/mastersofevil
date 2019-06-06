@@ -45,7 +45,9 @@
                     "play button"
                 ],
                 "backend": [
-                    "custom"
+                    "custom form",
+                    "gravity forms",
+                    "ACF"
                 ]
             }
         },
@@ -125,7 +127,8 @@
             ],
             "tags": {
                 "frontend": [
-                    "sticky header"
+                    "sticky menu",
+                    "slider"
                 ],
                 "backend": [
                     "custom"

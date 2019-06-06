@@ -112,9 +112,10 @@ class Projects extends React.Component {
                 <div className="projects">
 
                     <div className="row">
-                        <div className="column small-12 large-6 large-offset-3">
+                        <div className="column small-12 large-6 large-offset-3 wrapper">
 
                             <input type="text" value={this.state.search} onChange={this.updateSearch} placeholder="Zoek op projectnaam of tags"/>
+                            <img src="img/search.svg" className="search" alt=""/>
 
                         </div>
                     </div>
